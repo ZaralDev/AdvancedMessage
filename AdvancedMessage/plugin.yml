@@ -1,0 +1,15 @@
+name: AdvancedMessage
+main: fr.zaral.advancedmessage.Main
+version: 1.0
+description: AdvancedMessage plugin
+author: Zaral
+
+commands:
+   cmessage:
+      description: send message to player
+      aliases: [cmsg, customsg]
+      usage: /<command>
+permissions:
+   advancedmessage.use:
+     description: Allows you to used message command
+     default: op
